@@ -1,23 +1,22 @@
-import logo from "./logo.svg";
+import React, { useState } from "react";
 import "./App.css";
+import Header from "./Components/Header";
+import View from "./Components/View";
+import Footer from "./Components/Footer";
 
 function App() {
+  const [path, setPath] = useState("Home");
+
+  function handlePathChange(path) {
+    console.log(path);
+    setPath(path);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload with hook.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header handlePathChange={handlePathChange} path={path} />
+      <View path={path}></View>
+      <Footer />
     </div>
   );
 }

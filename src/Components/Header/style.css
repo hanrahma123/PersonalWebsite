@@ -1,0 +1,34 @@
+.headerBanner {
+  background-color: #282c34;
+  width: 100vw;
+  padding: 0.05em;
+  flex-wrap: nowrap;
+}
+
+.headerContainer {
+  margin-left: 25vw;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.rightContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left {
+}
+
+.right {
+}
