@@ -2,10 +2,11 @@
   background-color: #f3f6f7;
   width: 30vw;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
+
   /* display: flex;
     flex-direction: column; */
 }

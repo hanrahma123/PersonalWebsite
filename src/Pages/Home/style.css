@@ -7,3 +7,27 @@
 .homeContent {
   height: fit-content;
 }
+
+.homeBox1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.homeBox1Left {
+  flex-grow: 1;
+}
+
+.homeBox1Right {
+  flex-grow: 1;
+}
+
+.homePicture {
+  width: 200px;
+  height: 200px;
+  /* border: 10px solid #70f8ff; */
+  border-radius: 5px;
+  margin: 20px;
+  /* margin-top: 10px; */
+  /* margin-left: 10px; */
+}
