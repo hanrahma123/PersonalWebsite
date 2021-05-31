@@ -9,8 +9,8 @@ export default function Footer(props) {
         <div>Work In Progress</div>
       </div>
       <div className="footerRight">
-        <div>Email: markhanrahan12@gmail.com</div>
-        <div>Phone: (353) 83 854 7785</div>
+        <div>Email: redacted</div>
+        <div>Phone: redacted</div>
       </div>
     </div>
   );
