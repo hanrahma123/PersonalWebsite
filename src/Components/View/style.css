@@ -1,7 +1,7 @@
 .viewContainer {
   background-color: #e7ecee;
   width: 50vw;
-  /* min-height: 100vh; */
-  margin-left: 25vw;
+  min-width: 400px;
+  margin: auto;
   margin-bottom: none;
 }

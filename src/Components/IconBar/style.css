@@ -1,0 +1,18 @@
+.iconBar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #f3f6f7;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.iconBarItem {
+}
+
+.icon {
+  height: 75px;
+  border-radius: 5px;
+  border-width: 2px;
+}

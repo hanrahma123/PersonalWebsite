@@ -6,6 +6,8 @@
 
 .homeContent {
   height: fit-content;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .homeBox1 {
@@ -16,18 +18,47 @@
 
 .homeBox1Left {
   flex-grow: 1;
+  padding: 15px;
 }
 
 .homeBox1Right {
   flex-grow: 1;
+  width: 50%;
+  padding: 15px;
 }
 
 .homePicture {
   width: 200px;
   height: 200px;
-  /* border: 10px solid #70f8ff; */
   border-radius: 5px;
-  margin: 20px;
-  /* margin-top: 10px; */
-  /* margin-left: 10px; */
+}
+
+.homeHeaderContainer {
+  width: 100%;
+  background-color: #dae3e7;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.homeHeader {
+  background-color: #282c34;
+}
+
+.homeHeaderText {
+  color: white;
+  text-align: left;
+}
+
+.homeArticleWrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.homeInlineText {
+  display: inline;
+  white-space: pre-line;
+}
+
+a {
+  color: #70f8ff;
 }

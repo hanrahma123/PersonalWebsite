@@ -1,9 +1,11 @@
 .footerContainer {
   background-color: #282c34;
   max-width: 50vw;
+  min-width: 400px;
   min-height: 150px;
   margin-left: 25vw;
   margin-top: 0;
+  margin: auto;
   display: flex;
   flex-direction: row;
 }
@@ -26,5 +28,18 @@
   padding: 25px;
   color: white;
   text-align: left;
-  /* justify-content: right; */
+}
+
+.footerIconFlexBox {
+  display: flex;
+}
+
+.footerIconFlexBoxItem {
+}
+
+.footerIcon {
+  height: 30px;
+  filter: invert(100%);
+  margin-top: 10px;
+  margin-right: 10px;
 }

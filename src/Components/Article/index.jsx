@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-// import {title} from "../../Text/default.js"
 
 export default function Article(props) {
   /*
@@ -12,28 +11,16 @@ export default function Article(props) {
 
   useEffect(() => {
     if (props.content) {
-      setTitle(props.content.title);
-      setSubtitle(props.content.subtitle);
-      setBody(props.content.body);
+      setTitle(props.content.Title);
+      setSubtitle(props.content.Subtitle);
+      setBody(props.content.Body);
     }
   }, [props.content]);
-
-  // let filePath = '../../Text/';
-  // console.log(filePath + "default.js")
-  // if(props.file){
-  //   console.log("given filename");
-
-  // }
-  // else{
-  //   import(filePath + "default.js").then( (file)=>{
-  //     pullValues(file.title, file.subtitle, file.body)
-  //   });
-  // }
 
   return (
     <div className="article">
       <h1 className="title">{title}</h1>
-      <h3 className="subTitle">{subtitle}</h3>
+      <h4 className="subTitle">{subtitle}</h4>
       <p className="content">{body}</p>
     </div>
   );
