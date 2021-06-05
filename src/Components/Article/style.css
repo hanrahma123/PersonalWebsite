@@ -1,25 +1,25 @@
 .article {
   background-color: #f3f6f7;
-  width: 30vw;
+  min-width: 20%;
   margin: auto;
   border-radius: 5px;
   padding: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-  /* display: flex;
-    flex-direction: column; */
 }
 
 .title {
   text-align: left;
+  white-space: pre-line;
 }
 
 .subTitle {
   text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  white-space: pre-line;
 }
 
 .content {
   text-align: left;
   color: black;
+  white-space: pre-line;
 }

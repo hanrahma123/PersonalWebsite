@@ -1,12 +1,14 @@
 .headerBanner {
   background-color: #282c34;
   width: 100vw;
+  min-width: 400px;
   padding: 0.05em;
 }
 
 .headerContainer {
-  margin-left: 25vw;
   width: 50vw;
+  margin: auto;
+  min-width: min-content;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -14,6 +16,7 @@
 
 .leftContainer {
   flex-grow: 1;
+  flex-shrink: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -22,13 +25,9 @@
 
 .rightContainer {
   flex-grow: 1;
+  flex-shrink: 2;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-
-.left {
-}
-
-.right {
+  padding: 10px;
 }

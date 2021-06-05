@@ -1,0 +1,31 @@
+{
+  "Intro": {
+    "Title": "Hey!",
+    "Subtitle": "",
+    "Body1": "Welcome to my website. I made it entirely myself by using the ",
+    "Body2": "framework. I chose to use React “Hooks” instead of “State” to see how it compared. Hooks are great! \n\n I'm using this site to store and display all of my personal projects, work experience and some blog-type articles.",
+    "Link": "React "
+  },
+  "Bio": {
+    "Title": "Bio",
+    "Subtitle": "",
+    "Body": "I’m a Computer Engineering student (M.A.I.) at Trinity College Dublin, with a special interest in Distributed Computing, U.I. and Game Development. I’m proficient in a range of computer languages from C to Python. I also have experience with Web-design and API’s, DevOps, UNIX commands and design philosophy, Network Protocols, Server Management and CICD.\n\n I’ve learned what I know from University, Work Experience and personal projects. I’ll provide more info on this site."
+  },
+  "Tech": {
+    "Title": "Tech",
+    "Subtitle": "Some of the tools I've worked with:",
+    "Body": "Languages: C, C++, C#, JAVA, Python, JavaScript, Assembly.\n\nWeb-Frameworks: Spring/SpringBoot (Java), Flask (Python) \n\nU.I-Frameworks: React, Angular\n\nDistributed Tech: Hadoop, HDFS, Apache Spark, Apache Kafka\n\nDatabases: Oracle Sql, MySQL, PostgreSQL"
+  },
+  "Experience": [
+    {
+      "Title": "Work-Experience",
+      "Subtitle": "Full-stack engineer: Global Risk Analytics Technology\nBank of America Merrill Lynch",
+      "Body": "For 6-months I worked as a Full-stack engineer across different areas of Global Risk Analytics Tech. I got some fantastic hands on experience with Code-Reviews, Systems Design, Distributed Systems, Distributed Computing through HDFS, Apache Spark and Hive. I obtained my first-hand experience with industry leading SDLC and CICD technologies.\n\n I learned how to work in a software team. How to effectively communicate between business and technology teams and break down complex/abstract ideas into simple ideas. I learned how to listen and understand people’s point of view. But also how to help improve ideas and take criticism."
+    },
+    {
+      "Title": "",
+      "Subtitle": "Front-end Web-developer\nKoolaMoola",
+      "Body": " worked part-time for around 7 months on web-development and User Interface. Here I got my first start into professional software design. I also got my first hands-on experience with React UI framework, Spring/Springboot (Java) for back-end web-development.\n\n I was faced with a pretty difficult challenge, to quickly learn the Spring framework. This was a huge challenge that I overcame. I had Java experience going into the job but had to learn Spring from scratch. I achieved this through reading the documentation online, YouTube videos and online web-forums."
+    }
+  ]
+}
