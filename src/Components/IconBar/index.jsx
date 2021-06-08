@@ -14,7 +14,7 @@ export default function IconBar(props) {
   return (
     <div className="iconBar">
       {props.icons.map((icon) => (
-        <Icon icon={icon} />
+        <Icon icon={icon} key={icon.alt} />
       ))}
     </div>
   );

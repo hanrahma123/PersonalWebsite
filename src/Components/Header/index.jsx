@@ -5,25 +5,15 @@ import "./style.css";
 
 export default function Header(props) {
   const title = "Mark Hanrahan";
-  const widthRef = useRef(null);
-  const [device, setDevice] = useState({});
+  const widthRef = useRef(0);
+  const [device, setDevice] = useState({ flexGrow: 1 });
 
-  const smallDevice = { flexGrow: 0 };
-  const largeDevice = { flexGrow: 1 };
-
-  useEffect(
-    () => {
-      //Achieves centering on smaller devices onload of the webpage
-      widthRef.current.offsetWidth > 500
-        ? changeDevice(largeDevice)
-        : changeDevice(smallDevice);
-    },
-    [widthRef.current],
-    largeDevice,
-    smallDevice
-  );
-
-  const changeDevice = (device) => setDevice(device);
+  useEffect(() => {
+    widthRef.current.offsetWidth > 500
+      ? setDevice({ flexGrow: 1 })
+      : setDevice({ flexGrow: 0 });
+    console.log("changed offsetWidth");
+  }, [widthRef.current.offsetWidth]);
 
   return (
     <div className="headerBanner">
