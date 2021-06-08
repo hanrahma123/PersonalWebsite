@@ -2,5 +2,6 @@
   background-color: #e7ecee;
   width: 50vw;
   min-width: 400px;
+  max-width: 1000px;
   margin: auto;
 }

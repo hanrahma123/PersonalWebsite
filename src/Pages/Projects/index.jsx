@@ -27,9 +27,12 @@ export default function Home(props) {
 
   return (
     <div>
-      <div className="homeTitle">
-        <h1>Projects</h1>
+      <div className="homeHeaderContainer">
+        <div className="homeTitle">
+          <h1>Projects</h1>
+        </div>
       </div>
+
       <div className="homeContent">
         {articles.map((item) => (
           <div className="homeArticleWrapper">

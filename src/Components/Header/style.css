@@ -2,32 +2,34 @@
   background-color: #282c34;
   width: 100vw;
   min-width: 400px;
-  padding: 0.05em;
 }
 
 .headerContainer {
   width: 50vw;
   margin: auto;
-  min-width: min-content;
+  min-width: 400px;
+  max-width: 1000px;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .leftContainer {
-  flex-grow: 1;
-  flex-shrink: 1;
+  /* sflex-grow: 1; */
+  /* flex-shrink: 1; */
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   align-items: center;
   flex-wrap: nowrap;
+  text-align: center;
 }
 
 .rightContainer {
-  flex-grow: 1;
-  flex-shrink: 2;
+  /* flex-shrink: 2; */
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   padding: 10px;
+  /* padding-bottom: 10px; */
+  /* text-align: center; */
 }
