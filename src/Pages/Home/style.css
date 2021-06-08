@@ -1,8 +1,9 @@
 .homeTitle {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
   background-color: #282c34;
   color: white;
+  border-radius: 5px;
 }
 
 .homeContent {
@@ -20,6 +21,9 @@
 .homeBox1Left {
   flex-grow: 1;
   padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .homeBox1Right {
@@ -32,6 +36,7 @@
   width: 200px;
   height: 200px;
   border-radius: 5px;
+  align-self: center;
 }
 
 .homeHeaderContainer {
@@ -43,6 +48,8 @@
 
 .homeHeader {
   background-color: #282c34;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .homeHeaderText {
