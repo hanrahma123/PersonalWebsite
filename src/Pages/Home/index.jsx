@@ -57,15 +57,11 @@ export default function Home(props) {
             <div className="homeBox1Right">
               <div className="homeHeaderText">
                 <h1>{contentFile.Intro.Title}</h1>
-                <body className="homeInlineText">
-                  {contentFile.Intro.Body1}
-                </body>
-                <body className="homeInlineText">
+                <p className="homeInlineText">{contentFile.Intro.Body1}</p>
+                <p className="homeInlineText">
                   <a href="https://reactjs.org/">{contentFile.Intro.Link}</a>
-                </body>
-                <body className="homeInlineText">
-                  {contentFile.Intro.Body2}
-                </body>
+                </p>
+                <p className="homeInlineText">{contentFile.Intro.Body2}</p>
               </div>
             </div>
           </div>
@@ -84,8 +80,8 @@ export default function Home(props) {
 
         <div className="homeArticleWrapper">
           <div className="homeWorkExperience">
-            {contentFile.Experience.map((exp) => (
-              <Article content={exp} />
+            {contentFile.Experience.map((exp, index) => (
+              <Article content={exp} key={exp.Subtitle} />
             ))}
           </div>
         </div>

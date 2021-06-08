@@ -34,7 +34,7 @@ export default function Footer(props) {
         <div>Email: markhanrahan12@gmail.com</div>
         <div className="footerIconFlexBox">
           {icons.map((icon) => (
-            <div className="footerIconFlexBoxItem">
+            <div className="footerIconFlexBoxItem" key={icon.alt}>
               <a href={icon.url}>
                 <img className="footerIcon" src={icon.src} alt={icon.alt} />
               </a>

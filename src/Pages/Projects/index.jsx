@@ -34,9 +34,9 @@ export default function Home(props) {
       </div>
 
       <div className="homeContent">
-        {articles.map((item) => (
-          <div className="homeArticleWrapper">
-            <Article key={item.title} />
+        {articles.map((item, index) => (
+          <div key={index} className="homeArticleWrapper">
+            <Article />
           </div>
         ))}
       </div>
