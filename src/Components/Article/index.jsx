@@ -12,7 +12,7 @@ export default function Article(props) {
   const [subtitle, setSubtitle] = useState("subtitle");
   const [body, setBody] = useState("body");
   const [collapsed, setCollapsed] = useState(false);
-  const [articleHeight, setArticleHeight] = useState(null);
+  const [articleHeight, setArticleHeight] = useState(50);
 
   const articleRef = useRef(0);
 
@@ -24,7 +24,10 @@ export default function Article(props) {
     }
   }, [props.content]);
 
-  useEffect(() => {}, [collapsed]);
+  //single use effect to initially calculate height for transition
+  useEffect(() => {
+    calcHeight(articleRef.current);
+  }, []);
 
   function calcHeight(el) {
     const height = el.offsetHeight;
@@ -33,9 +36,13 @@ export default function Article(props) {
   }
 
   return (
-    <div className="article">
+    <div>
       {props.collapsable ? (
-        <div className="dropdown" style={{ height: articleHeight }}>
+        <div
+          className="article"
+          style={{ height: articleHeight }}
+          ref={articleRef}
+        >
           <CSSTransition
             in={collapsed === false}
             onEnter={calcHeight}
@@ -43,7 +50,7 @@ export default function Article(props) {
             onExit={calcHeight}
             timeout={500}
           >
-            <div className="article">
+            <div className="dropdown">
               <div
                 className="flexBox1"
                 onClick={() => setCollapsed(!collapsed)}
@@ -63,7 +70,7 @@ export default function Article(props) {
 
               {/* Drop down */}
               {collapsed && (
-                <div className="article">
+                <div>
                   <h4 className="subTitle">{subtitle}</h4>
                   <p className="content">{body}</p>
                 </div>
@@ -72,7 +79,7 @@ export default function Article(props) {
           </CSSTransition>
         </div>
       ) : (
-        <div>
+        <div className="article">
           <div className="flexBox1">
             <h1 className="title">{title}</h1>
           </div>
