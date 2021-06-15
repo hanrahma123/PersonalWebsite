@@ -80,7 +80,7 @@ export default function Article(props) {
       ) : (
         <div
           className="article"
-          style={{ height: articleHeight }}
+          // style={{ height: articleHeight }}
           ref={articleRef}
         >
           <CSSTransition
