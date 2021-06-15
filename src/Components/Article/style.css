@@ -3,11 +3,69 @@
   min-width: 20%;
   border-radius: 5px;
   padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dropdown {
+  transition: height 300ms;
+}
+
+.article-primary-enter {
+}
+
+.article-primary-enter-active {
+}
+
+.article-primary-exit {
+}
+
+.article-primary-exit-active {
+}
+
+.flexBox1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentButtonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.contentButton {
+  height: 40px;
+  width: 40px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.contentButton:hover {
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.contentButtonUp {
+  width: 25px;
+  height: 25px;
+  transition: 0.5s;
+}
+
+.contentButtonDown {
+  width: 25px;
+  height: 25px;
+  transition: 0.5s;
+  transform: rotate(180deg);
 }
 
 .title {
   text-align: left;
   white-space: pre-line;
+  font-size: 20px;
 }
 
 .subTitle {
@@ -21,4 +79,5 @@
   text-align: left;
   color: black;
   white-space: pre-line;
+  font-size: 15px;
 }

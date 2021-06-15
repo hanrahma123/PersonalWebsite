@@ -2,8 +2,8 @@
   "Intro": {
     "Title": "Hey!",
     "Subtitle": "",
-    "Body1": "Welcome to my website. I made it entirely myself by using the ",
-    "Body2": "framework. I chose to use React “Hooks” instead of “State” to see how it compared. Hooks are great! \n\n I'm using this site to store and display all of my personal projects, work experience and some blog-type articles.",
+    "Body1": "Welcome to my website. I built it myself by using the ",
+    "Body2": "framework. I chose to use React “Hooks” instead of traditional “State” techniques to see how it compared and learn something new Hooks are great! \n\n I’m using this site to collect and display all of my personal projects, work experience and some blog-type articles too.",
     "Link": "React "
   },
   "Bio": {
@@ -14,18 +14,23 @@
   "Tech": {
     "Title": "Tech",
     "Subtitle": "Some of the tools I've worked with:",
-    "Body": "Languages: C, C++, C#, JAVA, Python, JavaScript, Assembly.\n\nWeb-Frameworks: Spring/SpringBoot (Java), Flask (Python) \n\nU.I-Frameworks: React, Angular\n\nDistributed Tech: Hadoop, HDFS, Apache Spark, Apache Kafka\n\nDatabases: Oracle Sql, MySQL, PostgreSQL"
+    "Body": "Languages: C, C++, C#, JAVA, Python, JavaScript, Assembly \n\nWeb-Frameworks: Spring/SpringBoot (Java), Flask (Python) \n\nU.I.-Frameworks: React, Angular\n\nDistributed Tech: Hadoop, HDFS, Apache Spark, Apache Kafka\n\nDatabases: Oracle Sql, MySQL, PostgreSQL, Memcached"
   },
   "Experience": [
     {
       "Title": "Work-Experience",
       "Subtitle": "Full-stack engineer: Global Risk Analytics Technology\nBank of America Merrill Lynch",
-      "Body": "For 6-months I worked as a Full-stack engineer across different areas of Global Risk Analytics Tech. I got some fantastic hands on experience with Code-Reviews, Systems Design, Distributed Systems, Distributed Computing through HDFS, Apache Spark and Hive. I obtained my first-hand experience with industry leading SDLC and CICD technologies.\n\n I learned how to work in a software team. How to effectively communicate between business and technology teams and break down complex/abstract ideas into simple ideas. I learned how to listen and understand people’s point of view. But also how to help improve ideas and take criticism."
+      "Body": "For 6-months I worked as a Full-stack engineer across different areas of Global Risk Analytics Tech. I got some fantastic hands on experience with Code-Reviews, Systems Design, Distributed Systems, Distributed Computing through HDFS, Apache Spark and Hive. I also learned a huge amount in the area of financial theory and financial technology. I obtained my first-hand experience with industry level SDLC and CICD technologies.\n\n I learned how to work in a software team. How to effectively communicate between business and technology teams and break down complex/abstract ideas into simple terms. I learned how to listen and understand people’s point of view. But also how to help improve ideas and take criticism."
     },
     {
       "Title": "",
       "Subtitle": "Front-end Web-developer\nKoolaMoola",
-      "Body": "I worked part-time for around 7 months on web-development and User Interface. Here I got my first start into professional software design. I also got my first hands-on experience with React UI framework, Spring/Springboot (Java) for back-end web-development.\n\n I was faced with a pretty difficult challenge, to quickly learn the Spring framework. This was a huge challenge that I overcame. I had Java experience going into the job but had to learn Spring from scratch. I achieved this through reading the documentation online, YouTube videos and online web-forums."
+      "Body": "I worked part-time for around 5 months on web-development and User Interface. Here I got my first start into professional software design. I also got my first hands-on experience with React U.I. framework, Spring/Springboot (Java) for back-end web-development.\n\n I was faced with a pretty difficult challenge, to quickly learn the Spring framework. This was a huge challenge that I overcame. I had Java experience going into the job but had to learn Spring from scratch. I achieved this through reading the documentation online, YouTube videos and online web-forums."
+    },
+    {
+      "Title": "",
+      "Subtitle": "Risk Advisory Intern\nErnst & Young",
+      "Body": "Over the summer of 2020 I took part in the EY SIP program. This was my first job in a professional setting. I learned the essentials of communication and got a taste for consultancy and project-management. \n\nThis was during the midst of the pandemic in 2020 and yet they were still equipped to carry out the internship virtually and it wasn't cancelled, as many of us feared. I am massively grateful to have been selected for the program. This program involved a lot of learning and collaboration sessions. I also shadowed my team-mates and learned from them. I improved my communication, listening and team-working skills."
     }
   ]
 }

@@ -1,30 +1,9 @@
 import React from "react";
 import Article from "../../Components/Article";
 
-export default function Home(props) {
-  const articles = [
-    {
-      title: "Title1",
-      subTitle: "Subtitle1",
-      text: "Lorem Ipsum",
-    },
-    {
-      title: "Title2",
-      subTitle: "Subtitle2",
-      text: "Lorem Ipsum",
-    },
-    {
-      title: "Title3",
-      subTitle: "Subtitle3",
-      text: "Lorem Ipsum",
-    },
-    {
-      title: "Title4",
-      subTitle: "Subtitle4",
-      text: "Lorem Ipsum",
-    },
-  ];
+const contentFile = require("../../Text/Projects/Project.json");
 
+export default function Home(props) {
   return (
     <div>
       <div className="homeHeaderContainer">
@@ -34,9 +13,9 @@ export default function Home(props) {
       </div>
 
       <div className="homeContent">
-        {articles.map((item, index) => (
+        {contentFile.Projects.map((item, index) => (
           <div key={index} className="homeArticleWrapper">
-            <Article />
+            <Article content={item} collapsable={true} />
           </div>
         ))}
       </div>

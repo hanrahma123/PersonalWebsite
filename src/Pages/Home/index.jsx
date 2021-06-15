@@ -73,7 +73,9 @@ export default function Home(props) {
           <Article content={contentFile.Bio} />
         </div>
 
-        <IconBar className="iconBar" icons={icons} />
+        <div className="homeArticleWrapper">
+          <IconBar className="iconBar" icons={icons} />
+        </div>
         <div className="homeArticleWrapper">
           <Article content={contentFile.Tech} />
         </div>
