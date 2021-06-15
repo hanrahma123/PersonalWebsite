@@ -7,22 +7,24 @@
   padding-bottom: 5px;
   overflow: hidden;
   transition: 0.5s;
+  min-height: fit-content;
 }
 
 .dropdown {
-  transition: height 300ms;
+  /* use for reference */
+  height: fit-content;
 }
 
-.article-primary-enter {
+.dropdown-primary-enter {
 }
 
-.article-primary-enter-active {
+.dropdown-primary-enter-active {
 }
 
-.article-primary-exit {
+.dropdown-primary-exit {
 }
 
-.article-primary-exit-active {
+.dropdown-primary-exit-active {
 }
 
 .flexBox1 {

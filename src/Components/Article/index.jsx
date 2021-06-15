@@ -32,7 +32,6 @@ export default function Article(props) {
   function calcHeight(el) {
     const height = el.offsetHeight;
     setArticleHeight(height);
-    console.log(height);
   }
 
   return (
@@ -44,7 +43,7 @@ export default function Article(props) {
           ref={articleRef}
         >
           <CSSTransition
-            in={collapsed === false}
+            in={!collapsed}
             onEnter={calcHeight}
             mountOnEnter
             onExit={calcHeight}
@@ -79,12 +78,26 @@ export default function Article(props) {
           </CSSTransition>
         </div>
       ) : (
-        <div className="article">
-          <div className="flexBox1">
-            <h1 className="title">{title}</h1>
-          </div>
-          <h4 className="subTitle">{subtitle}</h4>
-          <p className="content">{body}</p>
+        <div
+          className="article"
+          style={{ height: articleHeight }}
+          ref={articleRef}
+        >
+          <CSSTransition
+            in={true}
+            onEnter={calcHeight}
+            mountOnEnter
+            onExit={calcHeight}
+            timeout={500}
+          >
+            <div className="dropdown">
+              <div className="flexBox1">
+                <h1 className="title">{title}</h1>
+              </div>
+              <h4 className="subTitle">{subtitle}</h4>
+              <p className="content">{body}</p>
+            </div>
+          </CSSTransition>
         </div>
       )}
     </div>
