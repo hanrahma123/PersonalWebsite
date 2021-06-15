@@ -1,0 +1,29 @@
+{
+  "Projects": [
+    {
+      "Title": "Self Driving Buggy",
+      "Subtitle": "2nd Year University Project (2019)",
+      "Body": "In my 2nd year of University in Trinity College Dublin we were tasked with a challenging tech/engineering based project: To build A self driving buggy that could steer itself around a predefined track, it also could recognise objects and stop/go according to their colour. It accounted for a large portion of our grade and so it was really important that we performed not only well but exceeded our goal.I wanted to become project lead as this was the first tech based project we had some creative freedom over. I put myself forward and I’m glad I did as I learned a lot from the experience. I wanted to do a great job at leading the project. I spent a lot of time reading up on project-management, interviewing managers and reading online forums. If I was going to do it, I was going to do it right.\n\n We chose to adopt a sort of Agile methodology early on. This was because it was popular at the time and online forums seemed to agree. We defined project vision and scope and delegated various portions of the work (hardware, software, logic design, algorithms) into Agile story sized tasks. We set short term goals to achieve project deliverables, present a minimum viable product and later a fully realised product.\n\nThe technology we used was an Arduino-uno board (Micro-controller), Servo motors to rotate the wheels, infra-red sensors to detect the track, A Pixy-Cam for computer vision (to detect the coloured objects), and the steering system was powered by a custom logic board we fabricated ourselves.\n\n We had some unexpected setbacks in the project also. One of our team members left halfway through and so we had extra work to divide. This left to some contention in the group as everyone was pretty busy already. We solved this through constant communication and helped each-other out. Additionally we accidentally fried our logic board with only a few weeks left until the demo-date. We worked overtime to build the new logic board. Unfortunately progressed slowed due to various reasons and we had to cut some final features, one of them included spicing up the UI of the laptop-client.\n\nEventually it was the project demo date. We demonstrated that our buggy work and hit the intial goal. We also succeeded at hitting the next optional miletstone of image recognition. However with all the cut feature we lost the overall competition.\n\nOverall it was a huge success and one of my most memorable University projects. I got some great experience with project-management and communciation. I also enjoyed the creative freedom to approach the project and prioritise certain features."
+    },
+    {
+      "Title": "Distributed Data Fabric",
+      "Subtitle": "",
+      "Body": ""
+    },
+    {
+      "Title": "OpenGL Computer Graphics Project",
+      "Subtitle": "",
+      "Body": ""
+    },
+    {
+      "Title": "This Website",
+      "Subtitle": "",
+      "Body": ""
+    },
+    {
+      "Title": "Hakathon: AIB Datahack 2017",
+      "Subtitle": "",
+      "Body": ""
+    }
+  ]
+}
