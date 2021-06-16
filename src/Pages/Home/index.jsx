@@ -10,6 +10,9 @@ import Flask from "../../Images/Flask_logo.png";
 import Spring from "../../Images/Spring_logo.png";
 import Hadoop from "../../Images/Hadoop_logo.png";
 import Kafka from "../../Images/Kafka_logo.png";
+import React_logo from "../../Images/React_logo.png";
+import Node_logo from "../../Images/Node_logo.png";
+import Spark_logo from "../../Images/Spark_logo.png";
 
 const contentFile = require("../../Text/Home/Home.json");
 
@@ -36,12 +39,26 @@ export default function Home(props) {
       alt: "Spring Logo",
     },
     {
+      src: Kafka,
+      alt: "Kafka Logo",
+    },
+
+    {
       src: Hadoop,
       alt: "Hadoop Logo",
     },
     {
-      src: Kafka,
-      alt: "Kafka Logo",
+      src: React_logo,
+      alt: "React Logo",
+    },
+
+    {
+      src: Spark_logo,
+      alt: "Spark Logo",
+    },
+    {
+      src: Node_logo,
+      alt: "Node Logo",
     },
   ];
 
