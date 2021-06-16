@@ -56,13 +56,13 @@
 .contentButtonUp {
   width: 25px;
   height: 25px;
-  transition: 0.5s;
+  transition: 0.5s ease-in;
 }
 
 .contentButtonDown {
   width: 25px;
   height: 25px;
-  transition: 0.5s;
+  transition: 0.5s ease-in;
   transform: rotate(180deg);
 }
 
@@ -84,4 +84,12 @@
   color: black;
   white-space: pre-line;
   font-size: 15px;
+}
+
+.linkBox {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #282c34;
+  color: white;
+  border-radius: 5px;
 }

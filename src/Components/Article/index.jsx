@@ -72,6 +72,9 @@ export default function Article(props) {
                 <div>
                   <h4 className="subTitle">{subtitle}</h4>
                   <p className="content">{body}</p>
+                  <div className="linkBox">
+                    <a href={props.content.Link}>{props.content.Link}</a>
+                  </div>
                 </div>
               )}
             </div>
