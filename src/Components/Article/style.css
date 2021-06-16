@@ -6,7 +6,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   overflow: hidden;
-  min-height: fit-content;
+  min-height: 0px;
 }
 
 .dropdown {
