@@ -40,6 +40,7 @@ export default function Article(props) {
           <CSSTransition
             in={!collapsed}
             onEnter={calcHeight}
+            onEntered={calcHeight}
             onExit={calcHeight}
             timeout={1000}
           >
