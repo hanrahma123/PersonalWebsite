@@ -77,10 +77,10 @@ export default function Article(props) {
       ) : (
         <div className="article" ref={articleRef}>
           <div className="flexBox1">
-            <h1 className="title">{title}</h1>
+            {title && <h1 className="title">{title}</h1>}
           </div>
-          <h4 className="subTitle">{subtitle}</h4>
-          <p className="content">{body}</p>
+          {subtitle && <h4 className="subTitle">{subtitle}</h4>}
+          {body && <p className="content">{body}</p>}
         </div>
       )}
     </div>
