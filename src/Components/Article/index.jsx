@@ -12,7 +12,7 @@ export default function Article(props) {
   const [subtitle, setSubtitle] = useState("subtitle");
   const [body, setBody] = useState("body");
   const [collapsed, setCollapsed] = useState(false);
-  const [articleHeight, setArticleHeight] = useState(50);
+  const [articleHeight, setArticleHeight] = useState(null);
 
   const articleRef = useRef(0);
 
@@ -24,11 +24,6 @@ export default function Article(props) {
     }
   }, [props.content]);
 
-  //single use effect to initially calculate height for transition
-  useEffect(() => {
-    calcHeight(articleRef.current);
-  }, []);
-
   function calcHeight(el) {
     const height = el.offsetHeight;
     setArticleHeight(height);
@@ -39,15 +34,14 @@ export default function Article(props) {
       {props.collapsable ? (
         <div
           className="article"
-          style={{ height: articleHeight }}
+          style={{ height: articleHeight, transition: "500ms" }}
           ref={articleRef}
         >
           <CSSTransition
             in={!collapsed}
             onEnter={calcHeight}
-            mountOnEnter
             onExit={calcHeight}
-            timeout={500}
+            timeout={1000}
           >
             <div className="dropdown">
               <div
@@ -81,26 +75,12 @@ export default function Article(props) {
           </CSSTransition>
         </div>
       ) : (
-        <div
-          className="article"
-          // style={{ height: articleHeight }}
-          ref={articleRef}
-        >
-          <CSSTransition
-            in={true}
-            onEnter={calcHeight}
-            mountOnEnter
-            onExit={calcHeight}
-            timeout={500}
-          >
-            <div className="dropdown">
-              <div className="flexBox1">
-                <h1 className="title">{title}</h1>
-              </div>
-              <h4 className="subTitle">{subtitle}</h4>
-              <p className="content">{body}</p>
-            </div>
-          </CSSTransition>
+        <div className="article" ref={articleRef}>
+          <div className="flexBox1">
+            <h1 className="title">{title}</h1>
+          </div>
+          <h4 className="subTitle">{subtitle}</h4>
+          <p className="content">{body}</p>
         </div>
       )}
     </div>
