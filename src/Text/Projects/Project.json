@@ -12,8 +12,9 @@
     },
     {
       "Title": "OpenGL Computer Graphics Project",
-      "Subtitle": "",
-      "Body": ""
+      "Subtitle": "OpenGL, C++",
+      "Body": "In my 4th year of my Computer Engineering degree I took a module called Computer Graphics. Here we learned how computer hardware works together to produce and render images from code to screen. We achieved this through learning the graphics rendering pipeline. From C++ code compiled and sent to the vertex and fragment shaders and the GPU.\n\nWe used the OpenGL API to learn how to produce 2-D and 3-D scenes. I found it fascinating that something as simple as a triangle took a great deal of set-up to produce. I got some great experience with low-level programming and memory management. This provided the exposure that a lot of game engines hide for convenience for better and worse.\n\nAs part of the class we were assigned a project to develop a ‘spooky scene’ in a 3-D environment. There were also many technical deliverables to achieve: 3-D models and Views, User Interaction and Camera Control, A hierarchical animated creature (parent/child), crowd of animated creatures, texture-mapping, implementing the Phong Illumination Model. There were also some advanced features that I was able to implement: Collision Detection, Skybox, Environment mapping, Fog, Advanced Camera Movement.\n\nAfter experimenting with light cubes (point light sources) and applying sin waves to their output I created some interesting flashing lights. I applied red and blue colours in the Fragment Shader and eventually I had some cool looking police siren lights. From there I decided to make a night-time city scene. I used some basic collision detection for my animated spiders and added some extra randomness to their paths. I used environment mapping to create a puddle that reflects the surrounding skybox. It was great to learn these techniques and presented me with very different type of programming model than I was used to.\n\nCheck out the video link below for a demo:\n\n",
+      "Link": "https://youtu.be/T_CJL76SHqc"
     },
     {
       "Title": "This Website",
