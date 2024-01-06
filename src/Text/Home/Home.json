@@ -9,16 +9,26 @@
   "Bio": {
     "Title": "Bio",
     "Subtitle": "",
-    "Body": "I’m a Computer Engineering student (M.A.I.) at Trinity College Dublin, with a special interest in Distributed Computing, U.I. and Game Development. I’m proficient in a range of computer languages from C to Python. I also have experience with Web-design and API’s, DevOps, UNIX commands and design philosophy, Network Protocols, Server Management and CICD.\n\n I’ve learned what I know from University, Work Experience and personal projects. I’ll provide more info on this site."
+    "Body": "I’m a Software Engineer and Tech Enthusiast. Graduated with Master of Computer Engineering (M.A.I.) at Trinity College Dublin, with a special interest in Distributed Computing, U.I. and Game Development. I’m proficient in a range of computer languages from C to Python. I also have experience with Web-design and API’s, DevOps, UNIX commands and design philosophy, Network Protocols, Server Management and CICD.\n\n I’ve learned what I know from University, Work Experience and personal projects. I’ll provide more info on this site."
   },
   "Tech": {
     "Title": "Tech",
     "Subtitle": "Some of the tools I've worked with:",
-    "Body": "Languages: C, C++, C#, JAVA, Python, JavaScript, Assembly \n\nWeb-Frameworks: Spring/SpringBoot (Java), Flask (Python) \n\nU.I.-Frameworks: React, Angular\n\nDistributed Tech: Hadoop, HDFS, Apache Spark, Apache Kafka\n\nDatabases: Oracle Sql, MySQL, PostgreSQL, Memcached"
+    "Body": "Languages: Python, C, C++, C#, Java,  JavaScript, Assembly \n\nWeb-Frameworks: Spring/SpringBoot (Java), Flask (Python) \n\nU.I.-Frameworks: React, Angular\n\nDistributed Tech: Hadoop, HDFS, Apache Spark, Apache Kafka, Docker, Kubernetes\n\nDatabases: Oracle Sql, MySQL, PostgreSQL, Memcached"
   },
   "Experience": [
     {
-      "Title": "Work-Experience",
+      "Title": "",
+      "Subtitle": "Software Engineer: MetaSearch Bidding Infrastructure\nExpedia Group",
+      "Body": "At Expedia Group I work within the Metasearch-Bidding Infrastructure team in the Brands department. I work collaboratively within a team of 5-10 engineers across London and Seattle. My role involves developing backend applications and ETL pipelines through adding requested features, supporting and maintaining large code bases. I’m proficient in cloud-tech and I deploy cloud infrastructure using terraform on AWS. I work within a containerised ecosystem using docker. I’ve recently completed a large development project with 5 engineers to migrate an existing legacy System/Product to adopting the company standards and save on cost. In this process I was able to identify and fix unclean legacy code, remove unnecessary complexity and optimise the resource usage within the legacy Apache Spark Jobs. This resulted in 45% decreased job runtime and 25% reduced cost. I’ve also delivered a solo project to migrate an existing multi-million dollar Legacy bid submission application which was spread across different AWS accounts and regions to centralise our infrastructure and improve performance.\nPython, AWS, Airflow, Terraform"
+    },
+    {
+      "Title": "",
+      "Subtitle": "Graduate Software Developer: Software Defined Networking\nIBM",
+      "Body": "At IBM my role was concerned with developing distributed solutions in the field of software-defined networking (i.e. Telco-Networks). I collaborated with a number of cross-disciplinary development teams. I contributed early and delivered on features quickly, taking ownership of features in the process. I developed on distributed clusters using Kubernetes and the Redhat Openshift Container Platform (OCP). I created and maintained Operators and Helm-Charts to manage installation of resources within clusters. I led scrum meetings for my team and presented my contributions in cross-team Sprint playbacks.\nDocker, Kubernetes, GoLang"
+    },
+    {
+      "Title": "",
       "Subtitle": "Full-Stack Developer: Global Risk Analytics Technology\nBank of America Merrill Lynch",
       "Body": "For 6-months I worked as a Full-stack engineer across different areas of Global Risk Analytics Tech. I got some fantastic hands on experience with Code-Reviews, Systems Design, Distributed Systems, Distributed Computing through HDFS, Apache Spark and Hive. I also learned a huge amount in the area of financial theory and financial technology. I obtained my first-hand experience with industry level SDLC and CICD technologies.\n\n I learned how to work in a software team. How to effectively communicate between business and technology teams and break down complex/abstract ideas into simple terms. I learned how to listen and understand people’s point of view. But also how to help improve ideas and take criticism."
     },
